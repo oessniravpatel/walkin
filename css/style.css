@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+/* ========== Do Not Touch In Css Strat ========== */
+@import url("reset.css");
+@import url("fonts.css");
+@import url("base.css");
+@import url("html5-reset.css");
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body{background: #ffffff;  margin:0px; padding:0px; font-family: 'Didact Gothic', sans-serif;}
+p {margin:0px; padding:0px 0px 20px 0px; line-height:24px; font-size:18px; color:#000; font-family:'Didact Gothic', sans-serif;}
+#page-wrap {width:960px; margin:0px auto;}
+.floatleft {float:left;}
+.floatright {float:right;}
+.clear {clear:both;}
+.bold {font-weight:bold;}
+a {text-decoration:none; color:#2B84C6;}
+a:hover, a.selected {text-decoration:none; color:#333333;}
+a:focus{outline:none;}
+ul {list-style:none;}
+li {list-style:none;}
+h1{font-size:40px; color:#0b56a6; font-family: 'Poiret One', cursive; text-transform:uppercase; font-weight:bold; margin-bottom:40px;}
+h3{font-size:24px; color:#0b56a6!important; font-family: 'Poiret One', cursive; text-transform:uppercase; font-weight:bold; margin-bottom:30px;}
+
+/* ========== Do Not Touch In Css End ========== */
+
+/* ------- Top Area Strat ------- */
+
+.marbtm0{margin-bottom:0!important;}
+.martop20{margin-top:20px;}
+
+header.inner-header{background:url(../images/banner.jpg) no-repeat center center; background-size: cover; position:relative; padding-bottom:15px;}
+
+.top-header li{display:inline-block; margin-right:15px; font-size:14px;}
+.top-header li:last-child{margin-right:0;}
+.top-header li i{padding-right:5px;}
+.top-header li a{color:#fff;}
+.logo{margin-top:20px;}
+
+.enter-site-logo{background:transparent; position:absolute; text-align:center; width:50%; height:100%; float:left;}
+<<<<<<< HEAD
+.form-interview{width:50%; height:100%; float:left; background:rgba(255,255,255,0.8); position:absolute; right:0; padding:70px 0 50px;}
+=======
+.form-interview{width:50%; height:100%; float:left; background:rgba(255,255,255,0.5); position:absolute; right:0; padding:70px 0 50px;}
+>>>>>>> 8e4681e76fee823cd1bfec30f427d8b9ceafcb4f
+.token{width:100%; height:100%; background:rgba(255,255,255,0.2); position:absolute; right:0; padding:100px 0 50px;}
+.token2{width:100%; height:auto; background:rgba(255,255,255,0.2) url(../images/banner02.jpg) no-repeat; background-size:cover; position:absolute; right:0; padding:50px 0 50px;}
+
+.token h1, .token h2{color:#fff;}
+.token-number{font-size:85px; background:#acdb11; border-radius:50%; color:#fff; width:200px; height:200px; display:inline-block; line-height:200px; margin:30px 0;}
+.radio {text-align:left;}
+.list-group-item {
+    background: #fff;
+    font-size: 18px;
+    text-align: left;
+}
+.radio label {
+    color: #fff;
+    font-size: 18px;
+	text-align:left;
+}
+<<<<<<< HEAD
+.form-interview h3 {
+    margin-bottom: 30px;
+}
+=======
+>>>>>>> 8e4681e76fee823cd1bfec30f427d8b9ceafcb4f
+.list-group-item strong {
+    margin-right: 15px;
+}
+.list-group-item {
+	background: #fff;
+}
+.enter-site-logo div{display:block; margin-top:40px;}
+#particles-js {
+    background-color: #0a4277;
+    background-image: url("");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.hamburgler-menu {
+    opacity: 1;
+    pointer-events: initial;
+    top: 0;
+    z-index: 1;
+}
+canvas {
+  margin: 0 auto;
+  display: block;
+}
+canvas.particles-js-canvas-el{min-height:1520px;}
+
+.form-group {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+body.home{overflow-y: hidden;}
+.form-group input, .form-group textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color -moz-use-text-color #cb7d30;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none !important;
+    color: #0b56a6;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0 0;
+    outline: medium none;
+    padding: 5px 0;
+    width: 100%;
+}
+.form-group label {
+    color: #0b56a6;
+    font-size: 16px;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.15s ease-out 0s;
+}
+.form-group select{width:100%; background:transparent url(../images/bg_select.png) no-repeat; background-position: 100% top; border:0; font-size:0; border-bottom:1px solid #0b56a6; -webkit-appearance: none; -moz-appearance: none; border-radius:0; box-shadow:none; margin-top:10px;}
+.form-group select option{font-size:14px; padding:10px; background:#0b56a6; color:#fff;}
+.form-group select option:hover{}
+.form-group select:focus{-webkit-appearance: none; border-radius:0; box-shadow:none; border-bottom-color:#0b56a6;}
+
+.form-group label.textarea{margin-left:5px;}
+.form-group input:focus + label, .form-group input.has-value + label, .form-group textarea:focus + label, .form-group textarea.has-value + label, .form-group input.has-value + span + label, .form-group input:focus + span.error + label{
+    color: #0b56a6;
+    font-size: 13px;
+    top: 0;
+}
+.form-group textarea {
+    border: 1px solid #0b56a6;
+    margin: 45px 0 0;
+    min-height: 195px;
+    padding: 0;
+}
+.form-group textarea + label {
+    top: 24%;
+}
+.form-group textarea:focus + label, .form-group textarea.has-value + label {
+    top: 30px;
+}
+span.error {
+    color: #f00;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 20px;
+<<<<<<< HEAD
+    width: auto;
+=======
+    width: 100%;
+>>>>>>> 8e4681e76fee823cd1bfec30f427d8b9ceafcb4f
+}
+/* ------- Top Area End ------- */
+
+/* ------- Navigation Area Strat ------- */
+
+.navigation{font-size:16px; font-weight:bold; padding-top:25px; text-align:right;}
+.navigation li{margin-right:35px;}
+.navigation li a{padding-bottom:15px; border-bottom:2px solid transparent;}
+.navigation li:last-child{margin-right:0px;}
+.navigation li:hover > a, .navigation li.selected > a{border-bottom:2px solid #fff;}
+.events-content {height: auto !important;}
+
+/* ------- Navigation Area End ------- */
+
+/* ------- Pages Contener Area Strat ------- */
+/* ..... Home Page Contener Area Strat ..... */
+
+.banner{z-index:1; background:url(../images/banner.jpg) no-repeat center top; background-size:cover;}
+.banner img{max-width:100%;}
+.banner-content {}
+.banner-content h1{color:#fff; font-size:45px; margin-top:40px; font-family: 'Didact Gothic', sans-serif; text-transform:none; font-weight:normal;}
+.banner-content h1 span{text-transform:uppercase; font-weight:bold;}
+.banner-content p{font-size:35px; font-family: 'Poiret One', cursive; line-height:45px; padding-top:20px; color:#fff;}
+.tp-banner {
+    height: 650px !important;
+    margin-bottom: 40px;
+}
+.tp-simpleresponsive > ul > li{position:relative;}
+.main-box h1{margin-bottom:30px;}
+.main-box li{display:inline-block; width:50%; background:#0b56a6; text-align:center; padding:50px; color:#fff; float:left;}
+.main-box ul::after {
+    clear: both; content: " "; display: table;
+}
+.main-box li:nth-child(3n+1){background:#acdb11;}
+.main-box li img{margin-bottom:20px;}
+.main-box li .title{font-size:30px; text-transform:uppercase;}
+.main-box li p{font-size:25px; line-height:30px; color:#fff; font-family: 'Poiret One', cursive; font-weight:bold;}
+.about{background:url(../images/bg_about.jpg) repeat; padding:50px 0;}
+.about h1{font-size:40px; color:#fff; text-transform:uppercase; font-family: 'Poiret One', cursive; margin-bottom:40px;}
+.about p{font-size:20px; color:#fff; line-height:25px; padding-bottom:20px;}
+.padtop40{padding-top:40px;}
+
+.services{padding:50px; background:url(../images/pattern-1.png) repeat; margin-bottom:40px;}s
+.services h1, .footer-form h1{font-size:40px; color:#0b56a6; text-transform:uppercase; font-family: 'Poiret One', cursive; margin-bottom:40px; font-weight:bold;}
+.services-in{background:#0b56a6; border:2px solid #0b56a6; text-align:center; padding:20px;}
+.services-in:hover{background:transparent;}
+.services-in i{color:#fff; font-size:70px; margin-bottom:10px;}
+.services-in .title{font-size:20px; color:#fff; text-transform:uppercase; margin-bottom:15px;}
+.services-in p{font-size:16px; color:#fff; line-height:24px;}
+.services-in a{border: 2px solid #fff; border-radius: 50%; color: #fff; height: 50px; padding: 0; width: 50px; display: inline-block; font-size: 30px;}
+.services-in:hover a{border: 2px solid #0b56a6; color:#0b56a6;}
+
+.services-in:hover i, .services-in:hover .title, .services-in:hover p{color:#0b56a6;}
+.enter-site{padding:10px 25px; border:1px solid #fff; color:#fff; background:rgba(255,255,255,0.2); font-size:20px; border-radius:5px; z-index:9999; position:relative;}
+.enter-site i{margin-left:10px;}
+.enter-site:hover{color:#acdb11; background:rgba(255,255,255,0.3);}
+
+/* ..... Home Page Contener Area End ..... */
+
+/* ..... Inner Page Contener Area Strat ..... */
+
+.inner-banner{z-index:1; height:400px; overflow:hidden; margin-bottom:40px; background:url(../images/banner.jpg) no-repeat center center; background-size: cover;}
+.inner-banner-text{font-size:75px; position: absolute; top:30%; text-align:center; width:100%; text-transform:uppercase; font-family: 'Poiret One', cursive; font-weight:bold; color:#fff;}
+
+.inner-content{padding:50px 0;}
+
+ul.arrow li{background:url(../images/arrow.png) no-repeat left 7px; padding-left:30px; font-size:16px; padding-bottom:10px;}
+.dropdown-submenu{position: relative;}
+.dropdown-submenu:hover .dropdown-menu{display:block;}
+.dropdown-menu{background:#0b56a6;}
+.dropdown-menu li {display: block; margin: 0;}
+.dropdown-menu li a{padding: 10px 15px;}
+
+#form span{color: #fff; font-size: 18px; text-transform: uppercase;}
+#accordion a{display:block; padding: 10px 15px; background: #0b56a6; color: #fff;}
+.panel-heading{padding:0;}
+.panel-body{font-size:16px; background:#f1f1f1;}
+
+.address_div {background: #ebfdd4; border-radius: 5px; padding: 20px; position: relative;}
+.padbtm0{padding-bottom:0!important;}
+
+/* ..... Inner Page Contener Area End ..... */
+/* ------- Pages Contener Area End ------- */
+
+/* ------- Footer Area Strat ------- */
+
+.copyright{padding:20px 0; font-size:18px; color:#0b56a6; background:#f1f1f1;}
+.copyright li{display:inline-block; margin-left:15px;}
+.footer-form{background:url(../images/bg-footer-form.jpg) repeat; padding:50px 0;}
+.footer-form h1{color:#fff; text-align:center;}
+.footer-form input, .footer-form textarea{border:2px solid #fff; padding:15px; color:#fff; width:100%; font-size:20px; font-family:'Poiret One', cursive; font-weight:bold; margin-bottom:30px; background:transparent;}
+.footer-form button{background:#fff; padding:15px 40px; color:#000; border:0; font-size:20px; text-transform:uppercase; font-family:'Poiret One', cursive; font-weight:bold;}
+.footer-form button:hover{background:#0b56a6; color:#fff;}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+
+
+#form
+{
+	background: #0b56a6;
+    bottom: 5px;
+    padding: 0;
+    position: fixed;
+    right: 5px;
+    width: auto;
+    z-index: 9999;
+}
+#form p
+{
+	background-color: #0b56a6;
+    color: #ced8f6;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+#form form
+{
+	clear: both;
+    display: none;
+    padding: 0 15px 15px;
+}
+#form input[type="text"]
+{
+                width:220px;
+                margin-left:0;
+                height:35px;
+                margin-top:10px;
+                padding:5px;
+                border:2px solid silver;
+}
+#form textarea
+{
+                width:220px;
+                margin-left:0;
+                height:100px;
+                margin-top:10px;
+                padding:5px;
+                border-radius:0px;
+                border:2px solid silver;
+				background:transparent;
+                font-family:helvetica;
+				resize:none;
+				margin-bottom:10px;
+}
+
+
+/* ------- Footer Area End ------- */
+
+@media (max-width: 1024px) {}
+@media (max-width: 768px) {}
+@media (max-width: 640px) {}
+@media (max-width: 480px) {}
+@media (max-width: 360px) {}
+@media (max-width: 320px) {}
+
+/* ------- Circle Ainmated ------- */
+
+.dot{
+    position:absolute;
+    width:70px;
+    height:70px;
+    background:rgba(255,255,255,0.2);
+    border-radius:50%;
+	border:1px solid #acdb11;
+	line-height:75px;
+	text-align:center;
+	-webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:20s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -moz-animation-name:orbit;
+    -moz-animation-duration:20s;
+   
+}
+.dot1{left:0; top:0;}
+.dot2{right:0; top:50%; left:auto;}
+.dot3{left:0; top:auto; bottom:0;}
+.dot4{left:auto; right:0 top:0; bottom:50%;}
+
+.radiation i{color:#acdb11; font-size:28px;}
+.radiation{
+    width:450px;	
+    height:450px;
+	left:40%;
+	top:0%;
+   position:absolute;   
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #0b56a6;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #0b56a6;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #0b56a6;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #0b56a6;
+  opacity: 1;
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } 
+}
+@-moz-keyframes orbit {
+from { -moz-transform:rotate(0deg) } 
+to { -moz-transform:rotate(360deg) } 
+}
+header{padding: 10px 0; border-bottom: 1px solid #0b56a6;}
+header .col-md-6:last-chld{text-align: right;}
+header a{margin: 0 10px;}
+footer{background: #0b56a6;
+    padding: 20px 0;
+    position: absolute;
+    bottom:0;
+    color: #fff;
+    width: 100%;}
+.token2 h2{color:#fff; text-align:center; margin-bottom:30px;}
+.cnt {
+    padding-bottom: 100px;
+    position: relative;
+}
+<<<<<<< HEAD
+.enter-site-logo h1, .enter-site-logo h2 {
+    color: #fff;
+    text-transform: none;
+}
+=======
+>>>>>>> 8e4681e76fee823cd1bfec30f427d8b9ceafcb4f
